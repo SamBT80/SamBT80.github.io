@@ -1,0 +1,45 @@
+body{
+  background-image: url(../img/bg.jpg);
+  background-repeat: space;
+
+}
+.container{
+  transition: all .3s
+}
+
+.container:hover{
+  transform: scale(1.1);
+}
+.site-head{
+  background-color: rgba(230, 230, 230, 1);
+  height: 75px;
+}
+.site-head ul{
+  padding-top:15px;
+}
+.site-head ul li{
+  font-size: 20px;
+}
+.site-head ul li a{
+  color: #1A2040;
+  font-weight: 700;
+}
+.jumbotron{
+  margin: 175px auto;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.0);
+}
+.display-4, .lead, p{
+  text-align: center;
+  color: #fff;
+}
+.btn, .btn-light{
+  width: 120px;
+  margin: 70px auto;
+  font-size: 20px;
+  padding: 10px;
+  color: #222;
+  display: flex;
+  justify-content: center;
+
+}
